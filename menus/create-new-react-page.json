@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Create Simple React Page",
+        "command": "create-new-react-page:create-simple"
+      },
+      {
+        "label": "Create Pure React Page",
+        "command": "create-new-react-page:create-pure"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "create-new-react-page",
+          "submenu": [
+            {
+              "label": "create-simple",
+              "command": "create-new-react-page:create-simple"
+            },
+            {
+              "label": "create-pure",
+              "command": "create-new-react-page:create-pure"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

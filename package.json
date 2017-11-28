@@ -1,0 +1,17 @@
+{
+  "name": "create-new-react-page",
+  "main": "./lib/create-new-react-page",
+  "version": "0.0.2",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+  },
+  "repository": "https://github.com/atom/create-new-react-page",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
